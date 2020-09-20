@@ -79,10 +79,12 @@ q:before,q:after {
 		content:'';
 		width:35px;
 		height:3px;
-		background:#666;
+		background:#fff;
 		transform: rotate(45deg);
-		transform-origin:-6% 0%;
+		transform-origin:9% 0%;
 		transition:all 0.5s ease-in-out;
+		position:absolute;
+		left:5px;
 	}
 	.nav-btn.changed:nth-of-type(2):after{
 		transform: rotate(-45deg);
@@ -218,7 +220,6 @@ q:before,q:after {
 		height:100%;
 		display:block;
 		float:right;
-		margin-right:20px;
 	}
 	.nav-btn{
 		position:relative;
@@ -245,8 +246,10 @@ q:before,q:after {
 		height:3px;
 		background:#666;
 		transform: rotate(45deg);
-		transform-origin:-6% 0%;
+		transform-origin:5% 0%;
 		transition:all 0.5s ease-in-out;
+		position: absolute;
+		left: 6px;
 	}
 	.nav-btn.changed:nth-of-type(2):after{
 		transform: rotate(-45deg);
@@ -371,7 +374,6 @@ q:before,q:after {
 		height:100%;
 		display:block;
 		float:right;
-		margin-right:20px;
 	}
 	.nav-btn{
 		position:relative;
@@ -398,8 +400,10 @@ q:before,q:after {
 		height:3px;
 		background:#666;
 		transform: rotate(45deg);
-		transform-origin:-6% 0%;
+		transform-origin:2% 0%;
 		transition:all 0.5s ease-in-out;
+		position: absolute;
+		left:5px;
 	}
 	.nav-btn.changed:nth-of-type(2):after{
 		transform: rotate(-45deg);
